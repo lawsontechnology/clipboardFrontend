@@ -1,0 +1,135 @@
+*{
+     margin:0;
+     padding: 0;
+     font-family: Bai Jamjuree;
+}
+body{
+}
+.backgroundImage{
+     background-image: url(images/bg-header-desktop.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background: linear-gradient(transparent); 
+}
+.imageIcon{
+      display: flex;
+      justify-content: center;
+      padding-top: 15pc;
+}
+.clipboardNote,.clipboardNote4,.clipboardNote6,.clipboardNote8{
+     font-size: 44px;
+     text-align: center;
+     margin-bottom: 25px;
+}
+.clipboardNote2,.clipboardNote3,.clipboardNote5,.clipboardNote7,.clipboardNote9{
+     font-size: 20px;
+     text-align: center;
+}
+.download{
+     margin-top: 45px;
+     display: flex;
+     justify-content:center;
+}
+.downloadIOS{
+ background-color: rgb(60, 185, 160);
+ width: 195px;
+ height: 20px;
+ padding: 14px 0px;
+ text-align: center;
+ border-radius: 50px;
+ margin-right: 10px;
+ box-shadow: 0px 9px 9px rgb(196, 240, 232);
+ color: white;
+ cursor: pointer;
+}
+.downloadMac{
+     background-color: rgb(36, 81, 245);
+     box-shadow: 0px 9px 9px rgb(203, 212, 243);
+     color: white;
+     width: 195px;
+     height: 20px;
+     padding: 14px 0px;
+     text-align: center;
+     border-radius: 50px;
+     cursor: pointer;
+}
+.keepTrack{
+     text-align: center;
+     font-size: 40px;
+     margin: 140px 0px 20px 0px;
+}
+.mac{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.macnote{
+     padding: 8pc 23rem 150px 0px;
+}
+.Quick{
+  font-size: 22px; 
+  text-align: start;
+  margin-bottom: 14px;
+}
+.Complete{
+  text-align: start;
+  font-size: 14px;
+  width: 290px;
+  line-height: 1.6;
+  padding-bottom: 36px;
+}
+.view{
+     text-align: center;
+}
+.sensitive,.logo{
+     display:  flex;
+     justify-content: center;
+}
+.Create,.Plain,.Sneak{
+     text-align: center;
+}
+.Plain{
+   padding: 0px 90px;
+}
+
+.preview,.text,.blacklists{
+     font-size: 28px;
+     text-align: center;
+     padding: 40px 0px 18px 0px;
+}
+.previewNote,.blacklistsNote,.textNote{
+     line-height: 1.4;
+}
+.hp,.ibm{
+     padding: 0px 95px;
+}
+.logo{
+     margin: 160px 0px;
+}
+.OS{
+     align-items: center;
+     margin: 50px 0px 170px 0px;
+}
+.footer{
+ display: flex;
+ background-color:rgb(245, 245, 245);
+  justify-content: center;
+  padding-top: 40px;
+}
+.footerLink{
+   padding-top: 30px;  
+}
+.footerNote{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     text-align: start;
+     padding: 0px 17rem 0px 9pc ;
+     
+}
+.svg{
+ padding-left: 20px;
+ cursor: pointer;
+}
+.kit{
+     padding: 0px 60px 0px 0px;
+}
